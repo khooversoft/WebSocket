@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSocketChatProxy", "WebSocketChatProxy\WebSocketChatProxy.csproj", "{184B5D4C-93AC-45BB-8BDD-725CAA5C7EB0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{750B76FA-F4F4-47D0-8DD1-535662591082}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSocketClient", "..\..\Test\WebSocketClient\WebSocketClient.csproj", "{E60A1B32-EFB0-44FB-8415-57898EFDC9AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{184B5D4C-93AC-45BB-8BDD-725CAA5C7EB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{184B5D4C-93AC-45BB-8BDD-725CAA5C7EB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{184B5D4C-93AC-45BB-8BDD-725CAA5C7EB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{184B5D4C-93AC-45BB-8BDD-725CAA5C7EB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E60A1B32-EFB0-44FB-8415-57898EFDC9AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E60A1B32-EFB0-44FB-8415-57898EFDC9AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E60A1B32-EFB0-44FB-8415-57898EFDC9AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E60A1B32-EFB0-44FB-8415-57898EFDC9AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E60A1B32-EFB0-44FB-8415-57898EFDC9AB} = {750B76FA-F4F4-47D0-8DD1-535662591082}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E2573FDD-9261-4743-A404-13339526CEAF}
+	EndGlobalSection
+EndGlobal
